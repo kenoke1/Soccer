@@ -41,14 +41,6 @@ public class ScoreBoardService implements IScoreBoardService {
 
     }
 
-//    @Override
-//    public List<Match> getSummary() {
-//        return matches.values().stream()
-//                .sorted(Comparator.comparingInt(Match::getTotalScore)
-//                        .thenComparing(Match::getStartTime)
-//                        .reversed())
-//                .toList();
-//    }
     @Override
     public List<Match> getSummary() {
         return matches.values().stream()
@@ -57,11 +49,7 @@ public class ScoreBoardService implements IScoreBoardService {
                 .toList();
     }
 
-//    @Override
-//    public List<Match> getSummary(){
-//        return matches.values().stream()
-//                .sorted((m1, m2)
-//    }
+
 
 
 //    public ScoreBoardService() {
