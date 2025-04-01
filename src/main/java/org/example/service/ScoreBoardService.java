@@ -5,7 +5,6 @@ import org.example.model.Match;
 import java.util.*;
 
 public class ScoreBoardService implements IScoreBoardService {
-    //private final Set<Match> activeMatches;
     private final Map<String, Match> matches = new HashMap<>();
 
     private String generateKey(String homeTeam, String awayTeam) {
@@ -51,9 +50,5 @@ public class ScoreBoardService implements IScoreBoardService {
 
 
 
-
-//    public ScoreBoardService() {
-//        this.activeMatches = new HashSet<>();
-//    }
 
 }
